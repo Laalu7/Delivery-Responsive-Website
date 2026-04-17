@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+   <!--=============== SWIPER CSS ===============-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <title>Responsive delivery website - Enhanced</title>
+</head>
+
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#" class="nav__logo">
+            <i class="ri-restaurant-fill"></i> Food Lover
+         </a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+               <li class="nav__item"><a href="#service" class="nav__link">Service</a></li>
+               <li class="nav__item"><a href="#menu" class="nav__link">Menu</a></li>
+               <li class="nav__item"><a href="features/index.html" class="nav__link">Features</a></li>
+               <li class="nav__item"><a href="#reviews" class="nav__link">Reviews</a></li>
+               <li class="nav__item"><a href="#app" class="nav__link">Our App</a></li>
+               <li class="nav__item"><a href="#map" class="nav__link">Find Us</a></li>
+            </ul>
+
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
+         </div>
+
+         <!-- Toggle button -->
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+         </div>
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div class="home__container container grid">
+            <div class="home__data">
+               <h1 class="home__title">Enjoy Your Delicious <br> <span>Food</span></h1>
+               <p class="home__description">
+                  We'll delight your stomach with a variety of delicious
+                  home-delivered food, delivered quickly and without delay.
+               </p>
+               <a href="#menu" class="button">Order Now</a>
+
+               <div class="home__social">
+                  <a href="https://m.me/bedimcode" target="_blank" class="home__social-link"><i
+                        class="ri-messenger-fill"></i></a>
+                  <a href="https://www.instagram.com/bedimcode/" target="_blank" class="home__social-link"><i
+                        class="ri-instagram-fill"></i></a>
+                  <a href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!"
+                     target="_blank" class="home__social-link"><i class="ri-whatsapp-fill"></i></a>
+                  <a href="https://web.telegram.org/" target="_blank" class="home__social-link"><i
+                        class="ri-telegram-fill"></i></a>
+               </div>
+
+               <div class="home__number">
+                  <p>Phone number:</p>
+                  <span><i class="ri-phone-fill"></i> +321(00)123-45-67</span>
+               </div>
+
+               <div class="home__comment">
+                  <p>Fast delivery and friendly staff. The food was good and very tasty 10/10.</p>
+               </div>
+            </div>
+
+            <div class="home__images">
+               <img src="assets/img/home-img.png" alt="home img" class="home__img">
+            </div>
+         </div>
+      </section>
+
+      <!--==================== SERVICE ====================-->
+      <section class="service section" id="service">
+         <div class="container">
+            <span class="section__subtitle">OUR SERVICE</span>
+            <h2 class="section__title">How Does It Work?</h2>
+
+            <div class="service__container grid">
+               <div class="service__card">
+                  <img src="assets/img/service-img-1.svg" alt="service image" class="service__img">
+                  <h3 class="service__title">Easy To Order</h3>
+                  <p class="service__description">You only need a few steps in ordering food.</p>
+               </div>
+
+               <div class="service__card">
+                  <img src="assets/img/service-img-2.svg" alt="service image" class="service__img">
+                  <h3 class="service__title">Fastest Delivery</h3>
+                  <p class="service__description">Always delivered on time and even faster.</p>
+               </div>
+
+               <div class="service__card">
+                  <img src="assets/img/service-img-3.svg" alt="service image" class="service__img">
+                  <h3 class="service__title">Best Quality</h3>
+                  <p class="service__description">Not only fast for us quality is also number one.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== MENU ====================-->
+      <section class="menu section" id="menu">
+         <div class="container">
+            <span class="section__subtitle">OUR MENU</span>
+            <h2 class="section__title">The Most Popular</h2>
+
+            <div class="menu__container grid">
+               <article class="menu__card">
+                  <img src="assets/img/menu-1.png" alt="menu img" class="menu__img">
+                  <h3 class="menu__name">Meat <br> Burger</h3>
+                  <span class="menu__amount">240g</span>
+                  <span class="menu__price">$9.90</span>
+               </article>
+
+               <article class="menu__card">
+                  <img src="assets/img/menu-2.png" alt="menu img" class="menu__img">
+                  <h3 class="menu__name">Grill <br> Burger</h3>
+                  <span class="menu__amount">240g</span>
+                  <span class="menu__price">$9.90</span>
+               </article>
+
+               <article class="menu__card">
+                  <img src="assets/img/menu-3.png" alt="menu img" class="menu__img">
+                  <h3 class="menu__name">Pepperoni <br> Pizza</h3>
+                  <span class="menu__amount">700g</span>
+                  <span class="menu__price">$14.90</span>
+               </article>
+
+               <article class="menu__card">
+                  <img src="assets/img/menu-4.png" alt="menu img" class="menu__img">
+                  <h3 class="menu__name">Margherita <br> Pizza</h3>
+                  <span class="menu__amount">700g</span>
+                  <span class="menu__price">$14.90</span>
+               </article>
+
+               <article class="menu__card">
+                  <img src="assets/img/menu-5.png" alt="menu img" class="menu__img">
+                  <h3 class="menu__name">Soda <br> Glass</h3>
+                  <span class="menu__amount">250 ml</span>
+                  <span class="menu__price">$3.90</span>
+               </article>
+
+               <article class="menu__card">
+                  <img src="assets/img/menu-6.png" alt="menu img" class="menu__img">
+                  <h3 class="menu__name">Refreshing <br> Lemonade</h3>
+                  <span class="menu__amount">250 ml</span>
+                  <span class="menu__price">$3.90</span>
+               </article>
+
+               <article class="menu__card">
+                  <img src="assets/img/menu-7.png" alt="menu img" class="menu__img">
+                  <h3 class="menu__name">Cheese <br> Potatoes</h3>
+                  <span class="menu__amount">50g</span>
+                  <span class="menu__price">$2.90</span>
+               </article>
+
+               <article class="menu__card">
+                  <img src="assets/img/menu-8.png" alt="menu img" class="menu__img">
+                  <h3 class="menu__name">Spicy <br> Potatoes</h3>
+                  <span class="menu__amount">50g</span>
+                  <span class="menu__price">$2.90</span>
+               </article>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== REVIEWS ====================-->
+      <section class="reviews section" id="reviews">
+         <div class="container container-reviews">
+            <span class="section__subtitle">OUR REVIEWS</span>
+            <h2 class="section__title">What They Say?</h2>
+
+            <div class="reviews__container swiper">
+               <div class="swiper-wrapper">
+                  <div class="reviews__card swiper-slide">
+                     <div class="reviews__header">
+                        <img src="assets/img/reviews-img-1.png" alt="review" class="reviews__img">
+                        <div>
+                           <h3 class="reviews__name">Emy Hawkins</h3>
+                           <div class="reviews__rating">
+                              <i class="ri-star-fill"></i>
+                              <span class="reviews__number">5.0</span>
+                           </div>
+                        </div>
+                     </div>
+                     <p class="reviews__comment">
+                        Food is the best. Besides the many and delicious meals,
+                        the service is also very good, especially in the very fast
+                        delivery. I highly recommend food to you.
+                     </p>
+                  </div>
+                  <div class="reviews__card swiper-slide">
+                     <div class="reviews__header">
+                        <img src="assets/img/reviews-img-2.png" alt="review" class="reviews__img">
+                        <div>
+                           <h3 class="reviews__name">Aliz Doe</h3>
+                           <div class="reviews__rating">
+                              <i class="ri-star-fill"></i>
+                              <span class="reviews__number">5.0</span>
+                           </div>
+                        </div>
+                     </div>
+                     <p class="reviews__comment">
+                        Food is the best. Besides the many and delicious meals,
+                        the service is also very good, especially in the very fast
+                        delivery. I highly recommend food to you.
+                     </p>
+                  </div>
+                  <div class="reviews__card swiper-slide">
+                     <div class="reviews__header">
+                        <img src="assets/img/reviews-img-3.png" alt="review" class="reviews__img">
+                        <div>
+                           <h3 class="reviews__name">Anna Wlhix</h3>
+                           <div class="reviews__rating">
+                              <i class="ri-star-fill"></i>
+                              <span class="reviews__number">5.0</span>
+                           </div>
+                        </div>
+                     </div>
+                     <p class="reviews__comment">
+                        Food is the best. Besides the many and delicious meals,
+                        the service is also very good, especially in the very fast
+                        delivery. I highly recommend food to you.
+                     </p>
+                  </div>
+               </div>
+               <!-- Add Pagination -->
+               <div class="swiper-pagination"></div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== APP ====================-->
+      <section class="app section" id="app">
+         <div class="app__container container grid">
+            <div class="app__data">
+               <span class="section__subtitle">OUR APP</span>
+               <h2 class="section__title">Simple Way To <br> Order Your Food</h2>
+               <p class="app__description">
+                  Discover restaurants and food anywhere, anytime, and
+                  have your order delivered to your door quickly.
+               </p>
+               <a href="#" class="button">Get The App</a>
+            </div>
+
+            <img src="assets/img/app-img.png" alt="app image" class="app__img">
+         </div>
+      </section>
+
+      <!--==================== MAP ====================-->
+      <section class="map section" id="map">
+         <div class="container">
+            <span class="section__subtitle">OUR LOCATION</span>
+            <h2 class="section__title">Find Us On The Map</h2>
+
+            <div class="map__container grid">
+               <div class="map__content">
+                  <div class="map__iframe-wrapper">
+                     <iframe class="map__iframe"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.1234567890123!2d-77.04278!3d-12.046374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDAyJzQ2LjkiUyA3N8KwMDInMzQuMCJX!5e0!3m2!1sen!2sus!4v1680000000000!5m2!1sen!2sus"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+               </div>
+               <div class="map__data">
+                  <img src="assets/img/map-img.png" alt="" class="map__img">
+                  <div class="map__info grid">
+                     <div class="map__info-group">
+                        <h3 class="map__title">Location</h3>
+                        <p class="map__description">Lima - Sun City - Peru <br> Av. Moon #4321</p>
+                     </div>
+                     <div class="map__info-group">
+                        <h3 class="map__title">Schedule</h3>
+                        <p class="map__description">Monday - Sunday <br> 24/7</p>
+                     </div>
+                     <div class="map__info-group">
+                        <h3 class="map__title">Phones</h3>
+                        <p class="map__description">+321(00)123-45-67 <br> +11-1234567</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <div class="footer__content">
+            <a href="#" class="footer__logo">
+               <i class="ri-restaurant-fill"></i> Food Lover
+            </a>
+            <p class="footer__description">
+               We will fill your tummy with <br> delicious food with fast delivery.
+            </p>
+            <div class="footer__social">
+               <a href="https://www.facebook.com/bedimcode" target="_blank" class="footer__social-link"><i
+                     class="ri-facebook-circle-fill"></i></a>
+               <a href="https://www.instagram.com/bedimcode/" target="_blank" class="footer__social-link"><i
+                     class="ri-instagram-fill"></i></a>
+               <a href="https://x.com/bedimcode" target="_blank" class="footer__social-link"><i
+                     class="ri-twitter-x-line"></i></a>
+               <a href="https://www.youtube.com/@Bedimcode" target="_blank" class="footer__social-link"><i
+                     class="ri-youtube-fill"></i></a>
+            </div>
+         </div>
+
+         <div class="footer__content">
+            <h3 class="footer__title">Company</h3>
+            <ul class="footer__links">
+               <li><a href="#" class="footer__link">Why Food?</a></li>
+               <li><a href="#" class="footer__link">Partner with us</a></li>
+               <li><a href="#" class="footer__link">About us</a></li>
+               <li><a href="#" class="footer__link">FAQ</a></li>
+            </ul>
+         </div>
+
+         <div class="footer__content">
+            <h3 class="footer__title">Support</h3>
+            <ul class="footer__links">
+               <li><a href="#" class="footer__link">Account</a></li>
+               <li><a href="#" class="footer__link">Support center</a></li>
+               <li><a href="#" class="footer__link">Feedback</a></li>
+               <li><a href="#" class="footer__link">Contacts</a></li>
+            </ul>
+         </div>
+
+         <div class="footer__content">
+            <h3 class="footer__title">Stay Connected</h3>
+            <p class="footer__description">Questions or feedback? we'd <br> love to hear from you.</p>
+            <form action="" class="footer__form">
+               <input type="email" placeholder="Email address" class="footer__input">
+               <button class="button">Submit</button>
+            </form>
+         </div>
+      </div>
+
+      <div class="footer__copy">
+         <p>&#169; All Rights Reserved By Laalucode</p>
+      </div>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+   <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+   </a>
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src="https://unpkg.com/scrollreveal"></script>
+
+   <!--=============== SWIPER JS ===============-->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="../assets/css/styles.css">
+
+      <style>
+         .features__header {
+            padding-top: 10rem;
+            text-align: center;
+         }
+         .feature-card {
+            background-color: var(--container-color);
+            padding: 2rem;
+            border-radius: 2rem;
+            box-shadow: var(--shadow-small);
+            text-align: center;
+            transition: transform 0.4s;
+         }
+         .feature-card:hover {
+            transform: translateY(-0.5rem);
+         }
+         .feature-icon {
+            font-size: 3rem;
+            color: var(--first-color);
+            margin-bottom: 1rem;
+         }
+         .back-btn {
+            display: inline-block;
+            margin-top: 3rem;
+         }
+      </style>
+
+      <title>Features - Responsive delivery website</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header scroll-header" id="header">                                        
+         <nav class="nav container">
+            <a href="../index.html" class="nav__logo">
+               <i class="ri-restaurant-fill"></i> Food Lover
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item"><a href="../index.html#home" class="nav__link">Home</a></li>
+                  <li class="nav__item"><a href="../index.html#menu" class="nav__link">Menu</a></li>
+                  <li class="nav__item"><a href="#special-features" class="nav__link active-link">Features</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <section class="section container" id="special-features">
+            <div class="features__header">
+               <span class="section__subtitle">WHAT'S NEW</span>
+               <h1 class="section__title">Our Exclusive Features</h1>
+            </div>
+
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+               <div class="feature-card">
+                  <i class="ri-calendar-event-fill feature-icon"></i>
+                  <h3>Table Reservation</h3>
+                  <p>Book a table in advance through our app and jump the line.</p>
+               </div>
+               
+               <div class="feature-card">
+                  <i class="ri-truck-fill feature-icon"></i>
+                  <h3>Catering Services</h3>
+                  <p>Special catering for large events and corporate meetings.</p>
+               </div>
+               
+               <div class="feature-card">
+                  <i class="ri-gift-fill feature-icon"></i>
+                  <h3>Loyalty Program</h3>
+                  <p>Earn points on every order and claim exclusive rewards.</p>
+               </div>
+            </div>
+
+            <div style="text-align: center;">
+               <a href="../index.html" class="button back-btn">Back to Home</a>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__copy">
+            <p>&#169; All Rights Reserved By Bedimcode</p>
+         </div>
+      </footer>
+   </body>
+</html>
